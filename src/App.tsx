@@ -14,7 +14,7 @@ const projects: Project[] = [
     id: 1,
     category: "Logo Design",
     title: "Android Logo Recreation",
-    image: "",
+    image: "https://raw.githubusercontent.com/gowthamxd/portiti/main/android-logo.jpg",
     description:
       "A clean vector-style recreation of the Android mascot using simple geometry and bold visual identity.",
     fullDescription:
@@ -24,7 +24,7 @@ const projects: Project[] = [
     id: 2,
     category: "Photography",
     title: "Ashirvad Store Front",
-    image: "",
+    image: "https://raw.githubusercontent.com/gowthamxd/portiti/main/ashirvad-store.jpg",
     description:
       "A documentary-style capture highlighting rustic textures, cultural depth, and everyday local storytelling.",
     fullDescription:
@@ -34,7 +34,7 @@ const projects: Project[] = [
     id: 3,
     category: "Editorial Design",
     title: "Bloomscape Brochure",
-    image: "",
+    image: "https://raw.githubusercontent.com/gowthamxd/portiti/main/bloomscape-brochure.jpg",
     description:
       "A modern brochure layout combining bold color blocks, typography hierarchy, and clean spatial composition.",
     fullDescription:
@@ -44,7 +44,7 @@ const projects: Project[] = [
     id: 4,
     category: "Photography",
     title: "Cat Portrait",
-    image: "",
+    image: "https://raw.githubusercontent.com/gowthamxd/portiti/main/cat-portrait.jpg",
     description:
       "A moody natural portrait using depth, framing, and soft light to create an intimate visual moment.",
     fullDescription:
@@ -54,7 +54,7 @@ const projects: Project[] = [
     id: 5,
     category: "Brand Mockup",
     title: "Coffee Branding",
-    image: "",
+    image: "https://raw.githubusercontent.com/gowthamxd/portiti/main/coffee-mockup.jpg",
     description:
       "A minimal coffee shop branding mockup focused on warm tones, clean iconography, and real-world application.",
     fullDescription:
@@ -64,7 +64,7 @@ const projects: Project[] = [
     id: 6,
     category: "Logo Design",
     title: "Cult Fit Concept",
-    image: "",
+    image: "https://raw.githubusercontent.com/gowthamxd/portiti/main/cult-fit-logo.jpg",
     description:
       "A bold fitness identity combining typography and symbol design to create a strong, energetic brand feel.",
     fullDescription:
@@ -74,7 +74,7 @@ const projects: Project[] = [
     id: 7,
     category: "Photography",
     title: "Sleeping Puppies",
-    image: "",
+    image: "https://raw.githubusercontent.com/gowthamxd/portiti/main/dogs-candid.jpg",
     description:
       "A candid emotional frame capturing warmth, softness, and natural bonding in a peaceful moment.",
     fullDescription:
@@ -84,7 +84,7 @@ const projects: Project[] = [
     id: 8,
     category: "Photography",
     title: "Flower Composition",
-    image: "",
+    image: "https://raw.githubusercontent.com/gowthamxd/portiti/main/flower-water.jpg",
     description:
       "A vibrant composition using color contrast and arrangement to create a visually rich decorative scene.",
     fullDescription:
@@ -94,7 +94,7 @@ const projects: Project[] = [
     id: 9,
     category: "Photography",
     title: "Abandoned Jeep",
-    image: "",
+    image: "https://raw.githubusercontent.com/gowthamxd/portiti/main/jeep-nature.jpg",
     description:
       "A storytelling image showing nature reclaiming man-made objects, creating contrast and narrative depth.",
     fullDescription:
@@ -104,7 +104,7 @@ const projects: Project[] = [
     id: 10,
     category: "Advertising",
     title: "McDonald's Concept Ad",
-    image: "",
+    image: "https://raw.githubusercontent.com/gowthamxd/portiti/main/mcdonalds-ad.jpg",
     description:
       "A playful visual combining cultural elements and brand storytelling for a bold and engaging campaign idea.",
     fullDescription:
@@ -114,7 +114,7 @@ const projects: Project[] = [
     id: 11,
     category: "Poster Design",
     title: "Moto Event Poster",
-    image: "",
+    image: "https://raw.githubusercontent.com/gowthamxd/portiti/main/moto-poster.jpg",
     description:
       "A dynamic event poster using motion-based composition and bold typography for high visual impact.",
     fullDescription:
@@ -124,7 +124,7 @@ const projects: Project[] = [
     id: 12,
     category: "Event Design",
     title: "Music Night Poster",
-    image: "",
+    image: "https://raw.githubusercontent.com/gowthamxd/portiti/main/music-night.jpg",
     description:
       "A high-energy poster capturing crowd atmosphere and excitement through lighting and composition.",
     fullDescription:
@@ -134,7 +134,7 @@ const projects: Project[] = [
     id: 13,
     category: "Advertising",
     title: "Nike Performance Ad",
-    image: "",
+    image: "https://raw.githubusercontent.com/gowthamxd/portiti/main/nike-ad.jpg",
     description:
       "A strong product-focused design emphasizing motion, energy, and modern sports branding.",
     fullDescription:
@@ -144,7 +144,7 @@ const projects: Project[] = [
     id: 14,
     category: "Advertising",
     title: "Endurance Campaign",
-    image: "",
+    image: "https://raw.githubusercontent.com/gowthamxd/portiti/main/nike-endurance.jpg",
     description:
       "A clean visual communicating durability and performance through minimal composition and strong messaging.",
     fullDescription:
@@ -154,7 +154,7 @@ const projects: Project[] = [
     id: 15,
     category: "Concept Design",
     title: "Nike Motion Visual",
-    image: "",
+    image: "https://raw.githubusercontent.com/gowthamxd/portiti/main/nike-green.jpg",
     description:
       "A futuristic concept combining motion graphics feel with product storytelling.",
     fullDescription:
@@ -164,7 +164,7 @@ const projects: Project[] = [
     id: 16,
     category: "Product Design",
     title: "Nike Detail Shot",
-    image: "",
+    image: "https://raw.githubusercontent.com/gowthamxd/portiti/main/nike-orange.jpg",
     description:
       "A minimal product-focused composition highlighting texture, shape, and detail.",
     fullDescription:
@@ -174,7 +174,7 @@ const projects: Project[] = [
     id: 17,
     category: "Digital Art",
     title: "Red Shadow Figure",
-    image: "",
+    image: "https://raw.githubusercontent.com/gowthamxd/portiti/main/red-shadow.jpg",
     description:
       "A dark visual exploration using silhouette and contrast to create mystery and tension.",
     fullDescription:
@@ -184,7 +184,7 @@ const projects: Project[] = [
     id: 18,
     category: "Merch Design",
     title: "Spider Bookmark",
-    image: "",
+    image: "https://raw.githubusercontent.com/gowthamxd/portiti/main/spiderman-bookmark.jpg",
     description:
       "A vibrant design inspired by comic visuals and bold character storytelling.",
     fullDescription:
@@ -194,7 +194,7 @@ const projects: Project[] = [
     id: 19,
     category: "Poster Design",
     title: "University Admissions Poster",
-    image: "",
+    image: "https://raw.githubusercontent.com/gowthamxd/portiti/main/university-poster.jpg",
     description:
       "A structured promotional design combining student imagery and clear call-to-action elements.",
     fullDescription:
@@ -204,7 +204,7 @@ const projects: Project[] = [
     id: 20,
     category: "Album Design",
     title: "Wedding Cover",
-    image: "",
+    image: "https://raw.githubusercontent.com/gowthamxd/portiti/main/wedding-collage.jpg",
     description:
       "A romantic collage-style album cover using layered imagery and emotional storytelling.",
     fullDescription:
@@ -361,24 +361,11 @@ export default function App() {
                   className="rounded-[18px] border border-black/10 bg-[#fbfaf7] p-6 transition hover:-translate-y-1 hover:shadow-[0_16px_40px_rgba(0,0,0,0.08)]"
                 >
                   <div className="mb-5 h-[220px] overflow-hidden rounded-[14px] border border-black/10 bg-[#f3f1eb]">
-                    {project.image ? (
-                      <img
-                        src={project.image}
-                        alt={project.title}
-                        className="h-full w-full object-cover"
-                      />
-                    ) : (
-                      <div className="flex h-full items-center justify-center text-center">
-                        <div>
-                          <p className="text-[11px] font-semibold uppercase tracking-[0.3em] text-black/40">
-                            Image Placeholder
-                          </p>
-                          <p className="mt-2 text-sm text-black/50">
-                            Add your image link in the project data
-                          </p>
-                        </div>
-                      </div>
-                    )}
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="h-full w-full object-cover"
+                    />
                   </div>
 
                   <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.32em] text-[#d26d6d]">
@@ -496,24 +483,11 @@ export default function App() {
             </div>
 
             <div className="mt-8 h-[260px] overflow-hidden rounded-[18px] border border-black/10 bg-[#f1efe8]">
-              {selectedProject.image ? (
-                <img
-                  src={selectedProject.image}
-                  alt={selectedProject.title}
-                  className="h-full w-full object-cover"
-                />
-              ) : (
-                <div className="flex h-full items-center justify-center text-center">
-                  <div>
-                    <p className="text-[11px] font-semibold uppercase tracking-[0.3em] text-black/40">
-                      Project Image Area
-                    </p>
-                    <p className="mt-2 text-sm text-black/50">
-                      Add your image link in the project data
-                    </p>
-                  </div>
-                </div>
-              )}
+              <img
+                src={selectedProject.image}
+                alt={selectedProject.title}
+                className="h-full w-full object-cover"
+              />
             </div>
 
             <div className="mt-8 grid gap-8 md:grid-cols-[150px_1fr]">
