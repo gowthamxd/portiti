@@ -14,7 +14,7 @@ const projects: Project[] = [
     id: 1,
     category: "Logo Design",
     title: "Android Logo Recreation",
-    image: "https://github.com/gowthamxd/portiti/blob/main/android-logo.jpg,
+    image: "",
     description:
       "A clean vector-style recreation of the Android mascot using simple geometry and bold visual identity.",
     fullDescription:
