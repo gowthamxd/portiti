@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-serif: "Playfair Display", "Georgia", serif;
+  
+  --color-brand-bg: #F9F9F7;
+  --color-brand-text: #1A1A1B;
+  --color-brand-accent: #E57373;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-brand-bg text-brand-text font-sans antialiased overflow-x-hidden;
+  }
+}
+
+.portfolio-grid-theme {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 1024px) {
+  .portfolio-grid-theme {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .portfolio-grid-theme {
+    grid-template-columns: 1fr;
+  }
+}
+
+.artistic-main-grid {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  grid-template-rows: 1fr auto;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .artistic-main-grid {
+    display: block;
+  }
+}
