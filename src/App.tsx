@@ -4,6 +4,7 @@ type Project = {
   id: number;
   category: string;
   title: string;
+  image: string;
   description: string;
   fullDescription: string;
 };
@@ -13,6 +14,7 @@ const projects: Project[] = [
     id: 1,
     category: "Logo Design",
     title: "Android Logo Recreation",
+    image: "https://github.com/gowthamxd/portiti/blob/main/android-logo.jpg,
     description:
       "A clean vector-style recreation of the Android mascot using simple geometry and bold visual identity.",
     fullDescription:
@@ -22,6 +24,7 @@ const projects: Project[] = [
     id: 2,
     category: "Photography",
     title: "Ashirvad Store Front",
+    image: "",
     description:
       "A documentary-style capture highlighting rustic textures, cultural depth, and everyday local storytelling.",
     fullDescription:
@@ -31,6 +34,7 @@ const projects: Project[] = [
     id: 3,
     category: "Editorial Design",
     title: "Bloomscape Brochure",
+    image: "",
     description:
       "A modern brochure layout combining bold color blocks, typography hierarchy, and clean spatial composition.",
     fullDescription:
@@ -40,6 +44,7 @@ const projects: Project[] = [
     id: 4,
     category: "Photography",
     title: "Cat Portrait",
+    image: "",
     description:
       "A moody natural portrait using depth, framing, and soft light to create an intimate visual moment.",
     fullDescription:
@@ -49,6 +54,7 @@ const projects: Project[] = [
     id: 5,
     category: "Brand Mockup",
     title: "Coffee Branding",
+    image: "",
     description:
       "A minimal coffee shop branding mockup focused on warm tones, clean iconography, and real-world application.",
     fullDescription:
@@ -58,6 +64,7 @@ const projects: Project[] = [
     id: 6,
     category: "Logo Design",
     title: "Cult Fit Concept",
+    image: "",
     description:
       "A bold fitness identity combining typography and symbol design to create a strong, energetic brand feel.",
     fullDescription:
@@ -67,6 +74,7 @@ const projects: Project[] = [
     id: 7,
     category: "Photography",
     title: "Sleeping Puppies",
+    image: "",
     description:
       "A candid emotional frame capturing warmth, softness, and natural bonding in a peaceful moment.",
     fullDescription:
@@ -76,6 +84,7 @@ const projects: Project[] = [
     id: 8,
     category: "Photography",
     title: "Flower Composition",
+    image: "",
     description:
       "A vibrant composition using color contrast and arrangement to create a visually rich decorative scene.",
     fullDescription:
@@ -85,6 +94,7 @@ const projects: Project[] = [
     id: 9,
     category: "Photography",
     title: "Abandoned Jeep",
+    image: "",
     description:
       "A storytelling image showing nature reclaiming man-made objects, creating contrast and narrative depth.",
     fullDescription:
@@ -94,6 +104,7 @@ const projects: Project[] = [
     id: 10,
     category: "Advertising",
     title: "McDonald's Concept Ad",
+    image: "",
     description:
       "A playful visual combining cultural elements and brand storytelling for a bold and engaging campaign idea.",
     fullDescription:
@@ -103,6 +114,7 @@ const projects: Project[] = [
     id: 11,
     category: "Poster Design",
     title: "Moto Event Poster",
+    image: "",
     description:
       "A dynamic event poster using motion-based composition and bold typography for high visual impact.",
     fullDescription:
@@ -112,6 +124,7 @@ const projects: Project[] = [
     id: 12,
     category: "Event Design",
     title: "Music Night Poster",
+    image: "",
     description:
       "A high-energy poster capturing crowd atmosphere and excitement through lighting and composition.",
     fullDescription:
@@ -121,6 +134,7 @@ const projects: Project[] = [
     id: 13,
     category: "Advertising",
     title: "Nike Performance Ad",
+    image: "",
     description:
       "A strong product-focused design emphasizing motion, energy, and modern sports branding.",
     fullDescription:
@@ -130,6 +144,7 @@ const projects: Project[] = [
     id: 14,
     category: "Advertising",
     title: "Endurance Campaign",
+    image: "",
     description:
       "A clean visual communicating durability and performance through minimal composition and strong messaging.",
     fullDescription:
@@ -139,6 +154,7 @@ const projects: Project[] = [
     id: 15,
     category: "Concept Design",
     title: "Nike Motion Visual",
+    image: "",
     description:
       "A futuristic concept combining motion graphics feel with product storytelling.",
     fullDescription:
@@ -148,6 +164,7 @@ const projects: Project[] = [
     id: 16,
     category: "Product Design",
     title: "Nike Detail Shot",
+    image: "",
     description:
       "A minimal product-focused composition highlighting texture, shape, and detail.",
     fullDescription:
@@ -157,6 +174,7 @@ const projects: Project[] = [
     id: 17,
     category: "Digital Art",
     title: "Red Shadow Figure",
+    image: "",
     description:
       "A dark visual exploration using silhouette and contrast to create mystery and tension.",
     fullDescription:
@@ -166,6 +184,7 @@ const projects: Project[] = [
     id: 18,
     category: "Merch Design",
     title: "Spider Bookmark",
+    image: "",
     description:
       "A vibrant design inspired by comic visuals and bold character storytelling.",
     fullDescription:
@@ -175,6 +194,7 @@ const projects: Project[] = [
     id: 19,
     category: "Poster Design",
     title: "University Admissions Poster",
+    image: "",
     description:
       "A structured promotional design combining student imagery and clear call-to-action elements.",
     fullDescription:
@@ -184,6 +204,7 @@ const projects: Project[] = [
     id: 20,
     category: "Album Design",
     title: "Wedding Cover",
+    image: "",
     description:
       "A romantic collage-style album cover using layered imagery and emotional storytelling.",
     fullDescription:
@@ -201,19 +222,11 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#f6f4ef] text-black">
-      <a
-        href="#main-content"
-        className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[100] focus:bg-black focus:px-4 focus:py-2 focus:text-white"
-      >
-        Skip to content
-      </a>
-
       <header className="sticky top-0 z-50 border-b border-black/10 bg-[#f6f4ef]/95 backdrop-blur">
         <div className="mx-auto flex max-w-[1450px] items-center justify-between px-6 py-5 lg:px-16">
           <a
             href="#home"
             className="rounded-md font-serif text-3xl font-bold focus:outline-none focus:ring-2 focus:ring-black"
-            aria-label="Go to home"
           >
             G.
           </a>
@@ -257,12 +270,8 @@ export default function App() {
         </div>
       </header>
 
-      <main id="main-content" className="mx-auto max-w-[1450px] px-6 py-10 lg:px-16">
-        <section
-          id="home"
-          className="grid gap-10 lg:grid-cols-[420px_minmax(0,1fr)] xl:grid-cols-[460px_minmax(0,1fr)]"
-        >
-          {/* LEFT PANEL */}
+      <main id="home" className="mx-auto max-w-[1450px] px-6 py-10 lg:px-16">
+        <section className="grid gap-10 lg:grid-cols-[420px_minmax(0,1fr)] xl:grid-cols-[460px_minmax(0,1fr)]">
           <aside className="self-start lg:sticky lg:top-[110px]">
             <div className="rounded-[22px] border border-black/10 bg-[#fbfaf7] p-8 lg:p-10">
               <p className="mb-5 text-[11px] font-semibold uppercase tracking-[0.35em] text-[#d26d6d]">
@@ -326,17 +335,13 @@ export default function App() {
             </div>
           </aside>
 
-          {/* RIGHT PANEL */}
-          <section id="portfolio" aria-labelledby="portfolio-heading" className="min-w-0">
+          <section id="portfolio" className="min-w-0">
             <div className="mb-8 flex items-end justify-between gap-4">
               <div>
                 <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.35em] text-black/45">
                   Portfolio Collection
                 </p>
-                <h2
-                  id="portfolio-heading"
-                  className="font-serif text-4xl sm:text-5xl"
-                >
+                <h2 className="font-serif text-4xl sm:text-5xl">
                   Selected Creative Projects
                 </h2>
               </div>
@@ -355,15 +360,25 @@ export default function App() {
                   key={project.id}
                   className="rounded-[18px] border border-black/10 bg-[#fbfaf7] p-6 transition hover:-translate-y-1 hover:shadow-[0_16px_40px_rgba(0,0,0,0.08)]"
                 >
-                  <div className="mb-5 flex h-[180px] items-center justify-center rounded-[14px] border border-dashed border-black/15 bg-[#f3f1eb] text-center">
-                    <div>
-                      <p className="text-[11px] font-semibold uppercase tracking-[0.3em] text-black/40">
-                        Image Placeholder
-                      </p>
-                      <p className="mt-2 text-sm text-black/50">
-                        Add your project image later
-                      </p>
-                    </div>
+                  <div className="mb-5 h-[220px] overflow-hidden rounded-[14px] border border-black/10 bg-[#f3f1eb]">
+                    {project.image ? (
+                      <img
+                        src={project.image}
+                        alt={project.title}
+                        className="h-full w-full object-cover"
+                      />
+                    ) : (
+                      <div className="flex h-full items-center justify-center text-center">
+                        <div>
+                          <p className="text-[11px] font-semibold uppercase tracking-[0.3em] text-black/40">
+                            Image Placeholder
+                          </p>
+                          <p className="mt-2 text-sm text-black/50">
+                            Add your image link in the project data
+                          </p>
+                        </div>
+                      </div>
+                    )}
                   </div>
 
                   <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.32em] text-[#d26d6d]">
@@ -382,9 +397,6 @@ export default function App() {
                     type="button"
                     onClick={() => setSelectedProjectId(project.id)}
                     className="mt-6 inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.3em] text-black transition hover:opacity-60 focus:outline-none focus:ring-2 focus:ring-black"
-                    aria-haspopup="dialog"
-                    aria-expanded={selectedProjectId === project.id}
-                    aria-label={`Open details for ${project.title}`}
                   >
                     View Project
                     <span aria-hidden="true">+</span>
@@ -395,7 +407,6 @@ export default function App() {
           </section>
         </section>
 
-        {/* CONTACT SECTION */}
         <section
           id="contact"
           className="mt-20 border-t border-black/10 pt-12 lg:mt-24 lg:pt-16"
@@ -464,14 +475,12 @@ export default function App() {
           className="fixed inset-0 z-[100] flex items-center justify-center bg-black/60 px-4 py-6"
           role="dialog"
           aria-modal="true"
-          aria-labelledby="project-dialog-title"
         >
           <div className="relative max-h-[90vh] w-full max-w-3xl overflow-y-auto rounded-[22px] bg-[#fbfaf7] p-6 shadow-2xl sm:p-8">
             <button
               type="button"
               onClick={() => setSelectedProjectId(null)}
               className="absolute right-4 top-4 inline-flex h-10 w-10 items-center justify-center rounded-full border border-black/10 text-lg focus:outline-none focus:ring-2 focus:ring-black"
-              aria-label="Close project details"
             >
               ×
             </button>
@@ -481,23 +490,30 @@ export default function App() {
                 {selectedProject.category}
               </p>
 
-              <h3
-                id="project-dialog-title"
-                className="font-serif text-4xl leading-tight sm:text-5xl"
-              >
+              <h3 className="font-serif text-4xl leading-tight sm:text-5xl">
                 {selectedProject.title}
               </h3>
             </div>
 
-            <div className="mt-8 flex h-[260px] items-center justify-center rounded-[18px] border border-dashed border-black/15 bg-[#f1efe8] text-center">
-              <div>
-                <p className="text-[11px] font-semibold uppercase tracking-[0.3em] text-black/40">
-                  Project Image Area
-                </p>
-                <p className="mt-2 text-sm text-black/50">
-                  Add your image here later
-                </p>
-              </div>
+            <div className="mt-8 h-[260px] overflow-hidden rounded-[18px] border border-black/10 bg-[#f1efe8]">
+              {selectedProject.image ? (
+                <img
+                  src={selectedProject.image}
+                  alt={selectedProject.title}
+                  className="h-full w-full object-cover"
+                />
+              ) : (
+                <div className="flex h-full items-center justify-center text-center">
+                  <div>
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.3em] text-black/40">
+                      Project Image Area
+                    </p>
+                    <p className="mt-2 text-sm text-black/50">
+                      Add your image link in the project data
+                    </p>
+                  </div>
+                </div>
+              )}
             </div>
 
             <div className="mt-8 grid gap-8 md:grid-cols-[150px_1fr]">
